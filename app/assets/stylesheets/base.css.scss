@@ -57,14 +57,13 @@ ul.title-area h1 a {
 	}
 }
 
-ul.left.right li a{
+ul.left li a{
 	height: 45px;
 	&:hover {
 		color: black;
 		height: 55px;
 		margin-bottom: -10px;
 		transition: height 0.14s;
-		
 	}
 
 	&.navbutton-1:hover {
