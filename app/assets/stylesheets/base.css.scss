@@ -2,19 +2,46 @@
 
 // NAVBAR
 
-ul.title-area h1 a {
-	font-family: "Montserrat";
-	font-weight: 400;
-	box-shadow: 0 0 0 black;
-	&:hover {
-		background-color: turquoise;
-		color: black;
-		height: 55px;
-		// width: 110%;
-		// box-shadow: 15px 15px 0 black;
-		box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
-		z-index: 1;
 
+ul.title-area h1 a {
+	font-family: "Helvetica Neue";
+	font-size: 2em;
+	font-weight: 400;
+	height: 45px;
+
+	&:hover {
+		background-color: #87e500;
+		color: white;
+		height: 50px;
+		text-shadow: 2.5px 2.5px 3px #497c00;
+		box-shadow: 
+		0.1px 0.1px #6dba00,
+		0.15px 0.15px #6dba00,
+		0.2px 0.2px #6dba00,
+		0.25px 0.25px #6dba00,
+		0.5px 0.5px #6dba00, 
+		1px 1px #6dba00, 
+		1.5px 1.5px #6dba00,
+		2px 2px #6dba00, 
+
+		2.5px 2.5px #61a500,
+		3px 3px #61a500,
+		3.5px 3.5px #61a500, 
+		4px 4px #61a500,
+
+		4.5px 4.5px #559000, 
+		5px 5px #559000,
+		5.5px 5.5px #559000, 
+		6px 6px #559000,
+
+		6.5px 6.5px #497c00, 
+		7px 7px #497c00,
+		7.5px 7.5px #497c00, 
+		8px 8px #497c00,
+
+		9px 9px #3d6700,
+		10px 10px #3d6700;
+		transition: height 0.14s;
 	}
 }
 
@@ -22,6 +49,7 @@ ul.title-area h1 a {
 .top-bar-section ul {
 	li a:not(.button) {
 		font-family: "Arapey";
+		font-size: 1em;
 		font-weight: 400;
 		font-style: italic;
 		// font-size: 1em;
@@ -29,22 +57,84 @@ ul.title-area h1 a {
 	}
 }
 
-ul.left li a{
+ul.left.right li a{
+	height: 45px;
 	&:hover {
 		color: black;
 		height: 55px;
 		margin-bottom: -10px;
-		clear: both;
+		transition: height 0.14s;
+		
 	}
 
 	&.navbutton-1:hover {
 		background: Salmon;
+		// box-shadow: 
+		// 0px 1px #fcb2aa, 
+		// 0px 1.5px #fcb2aa,
+		// 0px 2px #fcb2aa, 
+		// 0px 2.5px #fcb2aa,
+		// 0px 3px #fcb2aa,
+		// 0px 3.5px #fcb2aa, 
+		// 0px 4px #fcb2aa,
+
+		// 0px 4.5px #fdd8d4, 
+		// 0px 5px #fdd8d4,
+		// 0px 5.5px #fdd8d4, 
+		// 0px 6px #fdd8d4,
+		// 0px 6.5px #fdd8d4, 
+		// 0px 7px #fdd8d4,
+		// 0px 7.5px #fdd8d4, 
+
+		// 0px 8px #fef2f0,
+		// 0px 9px #fef2f0,
+		// 0px 10px #fef2f0;
 	}
 	&.navbutton-2:hover {
 		background-color: orange;
+		// box-shadow: 
+		// 0px 1px #ffc04c, 
+		// 0px 1.5px #ffc04c,
+		// 0px 2px #ffc04c, 
+		// 0px 2.5px #ffc04c,
+		// 0px 3px #ffc04c,
+		// 0px 3.5px #ffc04c, 
+		// 0px 4px #ffc04c,
+
+		// 0px 4.5px #ffdb99, 
+		// 0px 5px #ffdb99,
+		// 0px 5.5px #ffdb99, 
+		// 0px 6px #ffdb99,
+		// 0px 6.5px #ffdb99, 
+		// 0px 7px #ffdb99,
+		// 0px 7.5px #ffdb99, 
+
+		// 0px 8px #ffedcc,
+		// 0px 9px #ffedcc,
+		// 0px 10px #ffedcc;
 	}
 	&.navbutton-3:hover {
 		background-color: yellow;
+		// box-shadow: 
+		// 0px 1px #ffff99, 
+		// 0px 1.5px #ffff99,
+		// 0px 2px #ffff99, 
+		// 0px 2.5px #ffff99,
+		// 0px 3px #ffff99,
+		// 0px 3.5px #ffff99, 
+		// 0px 4px #ffff99,
+
+		// 0px 4.5px #ffffe5, 
+		// 0px 5px #ffffe5,
+		// 0px 5.5px #ffffe5, 
+		// 0px 6px #ffffe5,
+		// 0px 6.5px #ffffe5, 
+		// 0px 7px #ffffe5,
+		// 0px 7.5px #ffffe5, 
+
+		// 0px 8px #ffffff,
+		// 0px 9px #ffffff,
+		// 0px 10px #ffffff;
 	}
 	&.navbutton-4:hover {
 		background-color: lightGreen;
