@@ -5,9 +5,16 @@
 ul.title-area h1 a {
 	font-family: "Montserrat";
 	font-weight: 400;
+	box-shadow: 0 0 0 black;
 	&:hover {
-		background-color: yellow;
+		background-color: turquoise;
 		color: black;
+		height: 55px;
+		// width: 110%;
+		// box-shadow: 15px 15px 0 black;
+		box-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000, 5px 5px #000, 6px 6px #000, 7px 7px #000, 8px 8px #000;
+		z-index: 1;
+
 	}
 }
 
@@ -17,15 +24,14 @@ ul.title-area h1 a {
 		font-family: "Arapey";
 		font-weight: 400;
 		font-style: italic;
-		font-size: 1em;
-		padding: 0 1.5em 0 1.5em;
+		// font-size: 1em;
+		// padding: 0 1.5em 0 1.5em;
 	}
 }
 
-ul.right li a{
+ul.left li a{
 	&:hover {
 		color: black;
-		// font-size: 1.3em;
 		height: 55px;
 		margin-bottom: -10px;
 		clear: both;
@@ -44,7 +50,7 @@ ul.right li a{
 		background-color: lightGreen;
 	}
 	&.navbutton-5:hover {
-		background-color: lightBlue;
+		background-color: aquamarine;
 	}
 }
 
