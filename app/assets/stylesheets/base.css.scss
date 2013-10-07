@@ -1,10 +1,56 @@
-ul.title-area h1 a:hover {
-	background-color: yellow;
-	color: black;
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700|Arapey:400italic);
+
+// NAVBAR
+
+ul.title-area h1 a {
+	font-family: "Montserrat";
+	font-weight: 400;
+	&:hover {
+		background-color: yellow;
+		color: black;
+	}
 }
 
+
+.top-bar-section ul {
+	li a:not(.button) {
+		font-family: "Arapey";
+		font-weight: 400;
+		font-style: italic;
+		font-size: 1em;
+		padding: 0 1.5em 0 1.5em;
+	}
+}
+
+ul.right li a{
+	&:hover {
+		color: black;
+		// font-size: 1.3em;
+		height: 55px;
+		margin-bottom: -10px;
+		clear: both;
+	}
+
+	&.navbutton-1:hover {
+		background: Salmon;
+	}
+	&.navbutton-2:hover {
+		background-color: orange;
+	}
+	&.navbutton-3:hover {
+		background-color: yellow;
+	}
+	&.navbutton-4:hover {
+		background-color: lightGreen;
+	}
+	&.navbutton-5:hover {
+		background-color: lightBlue;
+	}
+}
+
+
+
 li.toggle-topbar.not-expanded a {
-	
 	&:hover {
 		background-color: yellow;
 		color: black;
@@ -18,6 +64,8 @@ li.toggle-topbar.not-expanded a {
 		box-shadow: none;
 	}
 }
+
+// BODY
 
 .container {
 	margin: 2em 5em 0 5em;
