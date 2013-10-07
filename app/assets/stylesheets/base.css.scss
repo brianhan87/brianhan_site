@@ -1,0 +1,27 @@
+ul.title-area h1 a:hover {
+	background-color: yellow;
+	color: black;
+}
+
+li.toggle-topbar.not-expanded a {
+	
+	&:hover {
+		background-color: yellow;
+		color: black;
+	}
+}
+
+.top-bar.expanded a.menu {
+	background-color: yellow;
+	color: black;
+	span {
+		box-shadow: none;
+	}
+}
+
+.container {
+	margin: 2em 5em 0 5em;
+	padding: 10px;
+	background-color: lightGrey;
+}
+
